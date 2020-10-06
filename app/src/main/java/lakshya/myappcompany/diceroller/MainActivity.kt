@@ -25,17 +25,19 @@ class MainActivity : AppCompatActivity() {
         resultText.text = randomInt.toString()
     }
 
-//    private fun countUp() {
-//        val resultText: TextView = findViewById(R.id.result_text)
-//        val currentVal = resultText.text.toString()
-//        var finalVal= 0
-//        when (currentVal) {
-//            "Hello, World!" -> finalVal=1
-//            "6" -> finalVal=6
-//            else -> finalVal = currentVal.toInt()+1
-//        }
-//
-//
-//        resultText.text = (finalVal).toString()
-//    }
+/*
+private fun countUp() {
+val resultText: TextView = findViewById(R.id.result_text)
+val currentVal = resultText.text.toString()
+var finalVal= 0
+when (currentVal) {
+"Hello, World!" -> finalVal=1
+"6" -> finalVal=6
+else -> finalVal = currentVal.toInt()+1
+}
+
+
+resultText.text = (finalVal).toString()
+}
+*/
 }
